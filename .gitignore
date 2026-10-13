@@ -1,4 +1,6 @@
 .venv
+data/
  dist/
  __pycache__/
+ db_meta.json
  *.egg-info

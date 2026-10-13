@@ -1,7 +1,7 @@
 [project]
 name = "primitive-db"
-version = "0.2.0"
-description = "Add your description here"
+version = "0.3.0"
+description = "Простая JSON-база данных с командами CRUD"
 readme = "README.md"
 authors = [
     { name = "Alexander774", email = "alexander1187@icloud.com" }
@@ -14,7 +14,6 @@ dependencies = [
 
 [project.scripts]
 database = "primitive_db.main:main"
-#project = "primitive_db.main:main
 
 [build-system]
 requires = ["uv_build>=0.13.0,<0.14.0"]
